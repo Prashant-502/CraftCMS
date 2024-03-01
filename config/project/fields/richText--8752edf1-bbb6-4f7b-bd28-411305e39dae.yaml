@@ -1,0 +1,27 @@
+columnSuffix: tzsstyzp
+contentColumnType: text
+fieldGroup: 5ee6e8a8-5e6c-41ac-8d9e-de9aac106267 # Common
+handle: richText
+instructions: null
+name: 'Rich Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

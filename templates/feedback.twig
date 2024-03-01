@@ -1,0 +1,59 @@
+{% extends "index" %}
+
+{% set body_classes = "inner-page" %}
+{% set pageTitle = entry.title %}
+{% block content %}
+
+<section class="section">
+    <div class="content-column">
+        {{ entry.feedbackheading }}
+        <form name="feedback_form" id="feedback_form" method="post">
+            <label>{{ entry.feedbackratinglabel }}</label>
+            <div class="mb-3 d-flex flex-row py-1">
+
+                {% for rating in entry.rating.all() %}
+
+                    <div class="form-check mr-3">
+                        <input class="form-check-input" type="radio" name="rating" id="{{ rating.ratingid }}" value="{{ rating.ratingvalue }}" {% for option in rating.feedbackcheck %}{{ option }}{% endfor %}>
+                        <label class="form-check-label" for="{{ rating.ratingid }}">
+                        {{ rating.ratingvalue }}
+                        </label>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+            <div class="mb-4">
+                <label class="form-label" for="feedback_comments">Comments:</label>
+                <textarea class="form-control" required rows="6" name="comments"
+                    id="feedback_comments"></textarea>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label" for="feedback_name">Your Name:</label>
+                    <input type="text" required name="name" class="form-control" id="feedback_name" placeholder="{{ entry.feedbacknameplaceholder }}"/>
+                </div>
+
+                <div class="col mb-4">
+                    <label class="form-label" for="feedback_email">Email:</label>
+                    <input type="email" name="email" required class="form-control" id="feedback_email" placeholder="{{ entry.feedbackemailplaceholder  }}"/>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg">{{ entry.feedbackbutton }}</button>
+        </form>
+    </div>
+</section>
+
+<section class="container">
+    
+    {% include "components/iframe" %}
+    
+</section>
+
+<section class="container">
+    
+    {% include "components/embed" %}
+    
+</section>
+{% endblock %}

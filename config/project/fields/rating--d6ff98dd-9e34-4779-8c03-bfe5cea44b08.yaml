@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: efc21d50-108d-46fb-87e8-bcc41729c86d # feedback
+handle: rating
+instructions: null
+name: Rating
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_rating}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

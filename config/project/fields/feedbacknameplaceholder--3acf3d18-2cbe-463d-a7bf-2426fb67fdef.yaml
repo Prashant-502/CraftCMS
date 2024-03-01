@@ -1,0 +1,19 @@
+columnSuffix: zzgjrsgh
+contentColumnType: text
+fieldGroup: efc21d50-108d-46fb-87e8-bcc41729c86d # feedback
+handle: feedbacknameplaceholder
+instructions: null
+name: FeedbackNamePlaceholder
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

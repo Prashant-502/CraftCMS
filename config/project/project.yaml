@@ -1,0 +1,79 @@
+dateModified: 1709190939
+email:
+  fromEmail: prashant.shigvan@teknopoint.in
+  fromName: Motoventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0b861dc1-b271-4afd-8d28-a563fda8adbe: Default # Default
+    00e1a896-47b1-4789-b443-139addfd5fb0: feedbackCheck # feedbackCheck
+    0f2eaca3-f068-4549-95b2-180ea82a1c6a: 'Nav Links' # Nav Links
+    01e9a7e5-4e47-4da5-83f7-19d984124ad4: 'Link Destination' # Link Destination
+    3acf3d18-2cbe-463d-a7bf-2426fb67fdef: FeedbackNamePlaceholder # FeedbackNamePlaceholder
+    3b900959-15f5-4047-b93f-edf27d9e8071: Default # Default
+    3eabed1b-cd70-4775-bfc2-14776dd16bcc: Motoventure # Motoventure
+    3f536937-0a97-44f1-b027-e79cae4fe5d8: RatingID # RatingID
+    5ee6e8a8-5e6c-41ac-8d9e-de9aac106267: Common # Common
+    6a9c7a1c-814d-4625-b509-d29ff5e8ff5c: Home # Home
+    6c83bdf4-fa2b-4f6e-aed2-e4bc14e08a1e: Rider # Rider
+    6ccc319f-5c29-4af2-afe7-643872c73475: Riders # Riders
+    7f86fbbb-261b-4867-903e-566b019526e3: Link # Link
+    9b1cc8dc-004a-4bab-b824-35d2ebf5d657: 'Home Page' # Home Page
+    13d50c2d-84e4-4799-ae84-63291d96f6be: 'Riders Intro content' # Riders Intro content
+    15adfbeb-9d37-431e-a935-b359533e1af3: Header # Header
+    21d9597a-7e9d-4dd3-a030-d9a372bb630e: Home # Home
+    91c2b3eb-c974-4da6-b5f1-29acad4df933: Avatar # Avatar
+    373e7d49-2f84-4f4a-bd96-3b978a660763: 'Link Text' # Link Text
+    695af393-1f95-4043-8a43-68d7ce77b9b6: Feedback # Feedback
+    912af7c3-fd0e-4cc9-a686-a5723bbb7ec8: 'stories Listing' # stories Listing
+    978c83f1-1520-404f-acd2-06b29031adfd: FeedbackButton # FeedbackButton
+    2135a1e9-8200-4208-8d57-fcb51010227a: 'Hero Image' # Hero Image
+    8752edf1-bbb6-4f7b-bd28-411305e39dae: 'Rich Text' # Rich Text
+    08930ed9-959e-4bc6-afb6-6dc8f69f92dc: 'stories Listing' # stories Listing
+    56648f70-47ac-4422-a266-56aa8632d936: Motoventure # Motoventure
+    99698d5b-644d-43e8-90ac-f9ba7184ad90: Photos # Photos
+    404067c6-675d-4ab7-bd5d-5b95f131a6f1: feedbackIframe # feedbackIframe
+    56156089-9f8c-4309-909d-9a5ad9f829ed: 'Hero Title' # Hero Title
+    a9d93c41-4768-4ef0-90bf-318e2fc2ee5e: 'General Pages' # General Pages
+    a14fd43e-64e0-4305-aa25-2aae1b018afa: RatingValue # RatingValue
+    af403dbf-6332-4920-858d-23ee2a2e36f6: feedbackEmailplaceholder # feedbackEmailplaceholder
+    b5cdf4dc-8720-46e8-96d8-c62f6be4cef1: FeedbackRatingLabel # FeedbackRatingLabel
+    b25c7beb-2d22-4bb8-8f79-de3d0c7fb1e7: 'Full Name' # Full Name
+    b1871dcc-095b-4fa8-9d50-c4d0bd9a7717: 'Short Description' # Short Description
+    b484118f-6375-4a9d-8c3e-93afe5c7cb57: Feedback # Feedback
+    bec8fce3-d79d-4192-b337-72d77df56f8b: Description # Description
+    bfbd07a4-5e7e-4c75-96e8-02a998a2e0d8: FeedbackHeading # FeedbackHeading
+    c5cc575e-6e80-4543-b21e-4db56c25ea8c: Photo # Photo
+    c852f26c-8a23-4437-b991-e2c39009a8d8: Ratings # Ratings
+    d6ff98dd-9e34-4779-8c03-bfe5cea44b08: Rating # Rating
+    e7722e9e-12c1-4e7e-9afb-06d7d214e4c7: EmbedComponent # EmbedComponent
+    e24415f0-42d4-4166-aedb-fabe55394976: 'Featured Story' # Featured Story
+    eb6056cf-da3e-42cb-9ace-db347c6a249b: Uploads # Uploads
+    ebb7a767-b7bf-40fd-a440-61d13fb2e9bf: Footer # Footer
+    efc21d50-108d-46fb-87e8-bcc41729c86d: feedback # feedback
+    ffe52a45-449d-4ad4-bf95-5fee86f7422a: Stories # Stories
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Motoventure
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

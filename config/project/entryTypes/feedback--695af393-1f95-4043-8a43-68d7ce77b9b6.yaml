@@ -1,0 +1,143 @@
+fieldLayouts:
+  31bf1539-d5fa-451c-9e6f-fdf728523fd3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2ddb41b0-874e-41e0-9bb4-1e1ef4280e7b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bfbd07a4-5e7e-4c75-96e8-02a998a2e0d8 # FeedbackHeading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 816fb77d-bff0-4aab-997f-36fc0f587704
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d6ff98dd-9e34-4779-8c03-bfe5cea44b08 # Rating
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 435fb395-fc69-4bab-b75d-66cc63d16767
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b5cdf4dc-8720-46e8-96d8-c62f6be4cef1 # FeedbackRatingLabel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b49e1c7e-e9ec-4c76-9eb9-fba5cb8cd149
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3acf3d18-2cbe-463d-a7bf-2426fb67fdef # FeedbackNamePlaceholder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a381711-8204-47d8-ac3c-14d0406c89bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af403dbf-6332-4920-858d-23ee2a2e36f6 # feedbackEmailplaceholder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b75056bb-2939-4a51-a2e7-85182229febe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 978c83f1-1520-404f-acd2-06b29031adfd # FeedbackButton
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1cc53fc-5a2e-4ef0-ade5-3f2aa7645dda
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 404067c6-675d-4ab7-bd5d-5b95f131a6f1 # feedbackIframe
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5669e5d-e781-4a9d-a172-b5c2511774b4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e7722e9e-12c1-4e7e-9afb-06d7d214e4c7 # EmbedComponent
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc0ab724-2f22-47ab-aca5-0cbcc8706ff0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bdf29349-3090-4b20-b6fd-72bbf0385c27
+        userCondition: null
+handle: feedback
+hasTitleField: false
+name: Feedback
+section: b484118f-6375-4a9d-8c3e-93afe5c7cb57 # Feedback
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

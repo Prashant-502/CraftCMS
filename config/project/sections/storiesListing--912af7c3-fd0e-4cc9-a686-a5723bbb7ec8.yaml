@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storiesListing
+name: 'stories Listing'
+propagationMethod: all
+siteSettings:
+  3eabed1b-cd70-4775-bfc2-14776dd16bcc: # Motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: stories\index.twig
+    uriFormat: stories
+type: single

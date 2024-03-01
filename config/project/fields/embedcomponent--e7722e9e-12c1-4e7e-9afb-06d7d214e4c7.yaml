@@ -1,0 +1,41 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: efc21d50-108d-46fb-87e8-bcc41729c86d # feedback
+handle: embedcomponent
+instructions: null
+name: EmbedComponent
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - audio
+    - image
+    - pdf
+    - video
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:eb6056cf-da3e-42cb-9ace-db347c6a249b' # Uploads
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:eb6056cf-da3e-42cb-9ace-db347c6a249b' # Uploads
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add a File to Use in Embed tag'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:eb6056cf-da3e-42cb-9ace-db347c6a249b' # Uploads
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

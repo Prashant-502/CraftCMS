@@ -1,0 +1,28 @@
+columnSuffix: vumxhqsh
+contentColumnType: text
+fieldGroup: efc21d50-108d-46fb-87e8-bcc41729c86d # feedback
+handle: feedbackheading
+instructions: null
+name: FeedbackHeading
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes:
+    - eb6056cf-da3e-42cb-9ace-db347c6a249b # Uploads
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

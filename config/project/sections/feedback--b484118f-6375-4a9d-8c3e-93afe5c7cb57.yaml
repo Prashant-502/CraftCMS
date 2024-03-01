@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: feedback
+name: Feedback
+propagationMethod: all
+siteSettings:
+  3eabed1b-cd70-4775-bfc2-14776dd16bcc: # Motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: feedback.twig
+    uriFormat: feedback
+type: single

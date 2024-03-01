@@ -1,0 +1,114 @@
+field: d6ff98dd-9e34-4779-8c03-bfe5cea44b08 # Rating
+fieldLayouts:
+  bb1b8e0b-c920-4657-a2d8-37051ab21325:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3f536937-0a97-44f1-b027-e79cae4fe5d8 # RatingID
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fbca1d5-61eb-492f-8d1b-56a44b25b48c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a14fd43e-64e0-4305-aa25-2aae1b018afa # RatingValue
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99e2b5f0-23cd-44fc-bd98-ed1d20ffd8cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 00e1a896-47b1-4789-b443-139addfd5fb0 # feedbackCheck
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7dd6040f-b588-4f9b-bdac-54b927bf573e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 63c8874c-c1a6-45c1-afdd-ef7d937b736f
+        userCondition: null
+fields:
+  00e1a896-47b1-4789-b443-139addfd5fb0: # feedbackCheck
+    columnSuffix: lcfsxylb
+    contentColumnType: string
+    fieldGroup: null
+    handle: feedbackcheck
+    instructions: null
+    name: feedbackCheck
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Checked
+            -
+              - value
+              - checked
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Checkboxes
+  3f536937-0a97-44f1-b027-e79cae4fe5d8: # RatingID
+    columnSuffix: qqtorzhh
+    contentColumnType: text
+    fieldGroup: null
+    handle: ratingid
+    instructions: null
+    name: RatingID
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a14fd43e-64e0-4305-aa25-2aae1b018afa: # RatingValue
+    columnSuffix: kmnxqxot
+    contentColumnType: text
+    fieldGroup: null
+    handle: ratingvalue
+    instructions: null
+    name: RatingValue
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: ratings
+name: Ratings
+sortOrder: 1

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: generalPages
+name: 'General Pages'
+propagationMethod: all
+siteSettings:
+  3eabed1b-cd70-4775-bfc2-14776dd16bcc: # Motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: general.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: dcea7aa0-2efc-4f50-ab39-31dab8ff1f32
+type: structure

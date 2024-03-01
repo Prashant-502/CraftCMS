@@ -1,0 +1,19 @@
+columnSuffix: gvpgdtas
+contentColumnType: text
+fieldGroup: 5ee6e8a8-5e6c-41ac-8d9e-de9aac106267 # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
